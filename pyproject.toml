@@ -1,0 +1,18 @@
+[project]
+name = "agentic-system-lecture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chatterer[all]>=0.2.6",
+    "confluent-kafka>=2.12.2",
+    "fastmcp>=2.14.1",
+    "grandalf>=0.8",
+    "ipykernel>=7.1.0",
+    "kafklient>=0.2.5",
+    "langchain-mcp-adapters>=0.2.1",
+    "langgraph>=1.0.5",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+]
